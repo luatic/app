@@ -1,5 +1,8 @@
 import React from 'react'
 
-const Header = () => <div>header</div>
-
+const Header = () => (
+  <>
+    <div>the date is : {Date.now()}</div>
+  </>
+)
 export default Header
