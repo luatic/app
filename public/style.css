@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+header {
+  background: #03a8fa;
+  text-align: center;
+}
+
+.logo {
+  color: #fff;
+  font-family: Anton;
+  font-size: 40px;
+}
