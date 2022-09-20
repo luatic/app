@@ -1,14 +1,15 @@
 import React from 'react'
 
-const getDate = () => {
-  const newDate = new Date()
-  return newDate.getFullYear()
+const Header = () => {
+  const getDate = () => {
+    const newDate = new Date()
+    return newDate.getFullYear()
+  }
+  return (
+    <>
+      <div>the date is : {getDate()}</div>
+    </>
+  )
 }
-
-const Header = () => (
-  <>
-    <div>the date is : {getDate()}</div>
-  </>
-)
 
 export default Header
