@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 
 export default class Header extends Component {
   inputChange = (event) => {
@@ -8,7 +8,7 @@ export default class Header extends Component {
     return (
       <>
         <header>
-          <div className="logo" onClick={() => console.log('click click')}>
+        <div className="logo" onClick={() => console.log('click click')}>
             Logo
           </div>
           <input onChange={this.inputChange} />
