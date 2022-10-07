@@ -8,7 +8,7 @@ export default class Header extends Component {
     return (
       <>
         <header>
-        <div className="logo" onClick={() => console.log('click click')}>
+          <div className="logo" onClick={() => console.log('click click')}>
             Logo
           </div>
           <input onChange={this.inputChange} />
